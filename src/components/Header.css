@@ -1,0 +1,20 @@
+/* .hero {
+  width: 60%;
+  margin: 0 auto;
+} */
+
+.hero {
+  height: 100vh;
+  grid-area: hero;
+  display: grid;
+  position: relative;
+  top: 75px;
+  align-items: center;
+  justify-items: center;
+  grid-auto-rows: minmax(33vh, 100vh);
+}
+
+
+/* #heroImage {
+  background-image: url(https://www.zamzar.com/images/filetypes/jpg.png);
+} */

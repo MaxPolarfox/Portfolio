@@ -1,0 +1,27 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #26262b;
+  width: 100%;
+  height: 95vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+.iconify {
+  font-size: 3cm;
+}
+
+
+#skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  margin:  0 auto;
+  justify-content: space-around;
+}
+
