@@ -10,9 +10,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .about-description {
   width: 60%;
   color: white;
+}
+
+h3 {
+  width: 60%;
+  color: white;
+  text-align:center;
 }

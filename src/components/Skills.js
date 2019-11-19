@@ -1,8 +1,6 @@
 import React from 'react'
-
 import './Skills.css'
 
-// import { Grid, Image } from 'semantic-ui-react'
 
 export default function Skills() {
   return (

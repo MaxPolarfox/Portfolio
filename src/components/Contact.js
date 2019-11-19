@@ -7,10 +7,10 @@ export default function Contact() {
     <section className="contact" id="contact">
       <div className="contact-details-container">
         <h1 className="section-head">Say Hello!</h1>
-        <p>If you'd like to work with me, please <span><a href="maksim.pesetski@gmail.com" target="_blank">reach out!</a></span></p>
+        <h1>If you'd like to work with me, please <span><a href="maksim.pesetski@gmail.com" target="_blank">reach out!</a></span></h1>
         <div className="contact-details">
-          <p>maksim.pesetski@gmail.com</p>
-          <p>347.495.4023</p>
+          <h4>maksim.pesetski@gmail.com</h4>
+          <h4>347.495.4023</h4>
         </div>
       </div>
     </section>
