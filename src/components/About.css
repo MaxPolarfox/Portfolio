@@ -1,8 +1,3 @@
-/* .about {
-  width: 60%;
-  margin: 0 auto;
-} */
-
 .about {
   height: 100vh;
   background-color: #26262b;
@@ -22,4 +17,12 @@ h3 {
   width: 60%;
   color: white;
   text-align:center;
+}
+
+
+@media (max-width: 450px){
+  .about-description {
+    width: 80%;
+    color: white;
+  }
 }

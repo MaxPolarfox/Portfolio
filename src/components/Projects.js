@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Placeholder, Segment } from 'semantic-ui-react'
+import { Grid } from 'semantic-ui-react'
 
 import './Projects.css'
 
@@ -12,49 +12,11 @@ export default function Projects() {
 
       <Grid columns={3} stackable>
         <Grid.Column>
-          <Segment raised>
-            <Placeholder>
-              <Placeholder.Header image>
-                <Placeholder.Line />
-                <Placeholder.Line />
-              </Placeholder.Header>
-              <Placeholder.Paragraph>
-                <Placeholder.Line length='medium' />
-                <Placeholder.Line length='short' />
-              </Placeholder.Paragraph>
-            </Placeholder>
-          </Segment>
+          <iframe width="560" height="315" title="Human Tetris Presentation" src="https://www.youtube.com/embed/TcYCWliA7PI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
         </Grid.Column>
 
-        <Grid.Column>
-          <Segment raised>
-            <Placeholder>
-              <Placeholder.Header image>
-                <Placeholder.Line />
-                <Placeholder.Line />
-              </Placeholder.Header>
-              <Placeholder.Paragraph>
-                <Placeholder.Line length='medium' />
-                <Placeholder.Line length='short' />
-              </Placeholder.Paragraph>
-            </Placeholder>
-          </Segment>
-        </Grid.Column>
 
-        <Grid.Column>
-          <Segment raised>
-            <Placeholder>
-              <Placeholder.Header image>
-                <Placeholder.Line />
-                <Placeholder.Line />
-              </Placeholder.Header>
-              <Placeholder.Paragraph>
-                <Placeholder.Line length='medium' />
-                <Placeholder.Line length='short' />
-              </Placeholder.Paragraph>
-            </Placeholder>
-          </Segment>
-        </Grid.Column>
       </Grid>
     </div>
   )

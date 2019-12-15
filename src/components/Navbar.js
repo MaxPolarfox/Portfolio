@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 
 import './NavBar.css'
 
@@ -27,34 +26,29 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      // <Sticky>
       <div className={this.state.isTop ? 'clearNavBar navBar' : 'greyNavBar navBar'}>
-
-
-
         <div>
-          <a href="#about" className='navBarElement'>ABOUT</a>
+          <a href="#about" className={this.state.isTop ? 'navBarElement' : "greynNavBarElement"}>ABOUT</a>
         </div>
 
         <div>
-          <a href="#projects" className='navBarElement'>PROJECTS</a>
+          <a href="#projects" className={this.state.isTop ? 'navBarElement' : "greynNavBarElement"}>PROJECTS</a>
         </div>
 
         <div>
-          <a href="#skills" className='navBarElement'>SKILLS</a>
+          <a href="#skills" className={this.state.isTop ? 'navBarElement' : "greynNavBarElement"}>SKILLS</a>
         </div>
 
         <div>
-          <a href="#contact" className='navBarElement'>CONTACT</a>
+          <a href="#contact" className={this.state.isTop ? 'navBarElement' : "greynNavBarElement"}>CONTACT</a>
         </div>
 
         <div>
 
-          <Link className='navBarElement' to='/resume'>RESUME</Link>
+          <a href='https://drive.google.com/open?id=18jBbOu3jgwHCoGObEFyxv9otE2S3M6I3' className={this.state.isTop ? 'navBarElement' : "greynNavBarElement"} target="_blank" rel="noopener noreferrer" >RESUME</a>
         </div>
 
       </div>
-      // </Sticky>
     )
   }
 

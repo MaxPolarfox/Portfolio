@@ -8,7 +8,6 @@ export default function Skills() {
       <header>
         <h1 className="section-head">My toolbox:</h1>
       </header>
-
       <div id='skillsList'>
         <div className='skill'>
           <span className="iconify"

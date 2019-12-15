@@ -39,7 +39,7 @@ header {
   flex-basis: 33%
 }
 
-@media (max-width: 375px){
+@media (max-width: 450px){
   header {
     padding-bottom: 10%;
   }

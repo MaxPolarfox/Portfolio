@@ -6,6 +6,12 @@
   margin: 30px;
 }
 
+.greynNavBarElement {
+  color:  #1a1a1a;
+  font-size: 20pt;
+  margin: 30px;
+}
+
 .navBar {
   display: flex;
   justify-content: center;
@@ -18,16 +24,22 @@
 }
 
 .greyNavBar {
-  background-color:grey;
+  background-color:#f2f2f2;
 }
 
 .clearNavBar {
   background-color:rgba(255, 255, 255, 0);
 }
 
-@media (max-width: 375px){
+@media (max-width: 450px){
   .navBarElement {
     color: aliceblue;
+    font-size: 12pt;
+    margin: 5px;
+  }
+
+  .greynNavBarElement {
+    color:  #1a1a1a;
     font-size: 12pt;
     margin: 5px;
   }
