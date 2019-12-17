@@ -43,6 +43,11 @@ export default class Navbar extends Component {
           <a href="#contact" className={this.state.isTop ? 'navBarElement' : "greynNavBarElement"}>CONTACT</a>
         </div>
 
+
+        <div>
+          <a href="https://shanuyzelen.wixsite.com/human-tetris" className={this.state.isTop ? 'navBarElement' : "greynNavBarElement"} target="_blank" rel="noopener noreferrer">BLOG</a>
+        </div>
+
         <div>
 
           <a href='https://drive.google.com/open?id=18jBbOu3jgwHCoGObEFyxv9otE2S3M6I3' className={this.state.isTop ? 'navBarElement' : "greynNavBarElement"} target="_blank" rel="noopener noreferrer" >RESUME</a>
