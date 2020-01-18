@@ -14,7 +14,6 @@
   text-align:center;
 }
 
-
 .heroImage {
   content:url(id.jpg);
   border: 3px black;
@@ -23,6 +22,20 @@
   width: 300px;
   margin-top: 100px;
 }
+
+.ArrowDown {
+  content:url(ArrowDown.png);
+}
+
+.ArrowUp {
+  content:url(ArrowUp.png);
+}
+
+.Arrow {
+  height: 150px;
+  width: 150px;
+}
+
 
 
 @media (max-width: 450px){

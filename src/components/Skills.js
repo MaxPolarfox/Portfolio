@@ -50,6 +50,25 @@ export default function Skills() {
             data-icon="fa-brands:css3-alt"
             data-inline="false"></span>
         </div>
+
+        <div className='skill'>
+          <span className="iconify"
+            data-icon="cib:postgresql"
+            data-inline="false"></span>
+        </div>
+
+        <div className="skill">
+          <span class="iconify"
+            data-icon="logos:firebase"
+            data-inline="false"></span>
+        </div>
+
+        <div className="skill">
+          <span class="iconify"
+            data-icon="logos:tensorflow"
+            data-inline="false"></span>
+        </div>
+
       </div>
 
 

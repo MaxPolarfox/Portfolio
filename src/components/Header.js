@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Header.css'
+import './ArrowDown.png'
 
 export default class Header extends Component {
   constructor() {
@@ -20,7 +21,6 @@ export default class Header extends Component {
   }
 
   onScroll(isTop) {
-    console.log(typeof isTop);
     this.setState({ isTop });
   }
 
@@ -32,7 +32,7 @@ export default class Header extends Component {
           <h1 className="welcome-message">Hello!</h1>
           <h1 className="welcome-message">I'm <span><a href="https://www.linkedin.com/in/maksim-pesetski-a91581153/" target="_blank" rel="noopener noreferrer">Maksim Pesetski</a></span>, a software engineer and problem solver based out of New York, NY.</h1>
         </div>
-        <span className="iconify" data-icon="ic:round-double-arrow" data-inline="false" data-rotate="90deg" data-flip={this.state.isTop ? null : "horizontal,vertical"}></span>
+        <div id='arrow' className={this.state.isTop ? 'ArrowDown Arrow' : 'ArrowUp Arrow'}></div>
       </header>
     )
   }

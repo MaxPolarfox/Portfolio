@@ -11,8 +11,8 @@ export default function Contact() {
           <a href="mailto:maksim.pesetski@gmail.com" target="_blank" rel="noopener noreferrer">reach out!</a>
         </span></h1>
         <div className="contact-details">
-          <h4>maksim.pesetski@gmail.com</h4>
-          <h4>347.495.4023</h4>
+          <h2>maksim.pesetski@gmail.com</h2>
+          <h2>347.495.4023</h2>
         </div>
       </div>
     </section>

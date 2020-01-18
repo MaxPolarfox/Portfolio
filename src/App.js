@@ -11,10 +11,6 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-// import { } from 'semantic-ui-react'
-
-
-
 function App() {
   return (
     <BrowserRouter>

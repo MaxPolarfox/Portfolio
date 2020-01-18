@@ -12,3 +12,18 @@
   text-align:center;
 }
 
+h3, h2 {
+  width: 80%;
+  color: white;
+  text-align:center;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
+}
+
+img {
+  width: 560px;
+  height: 315px;
+}
